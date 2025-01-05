@@ -1,5 +1,6 @@
+#импорт ткинтер
 import tkinter as tk
-
+#функция для начала рисования
 def start_draw(event):
     global last_x, last_y
     last_x, last_y = event.x + 5, event.y + 5
