@@ -4,7 +4,7 @@ import tkinter as tk
 def start_draw(event):
     global last_x, last_y
     last_x, last_y = event.x + 5, event.y + 5
-
+#функция для рисования
 def draw(event):
     global last_x, last_y
     canvas.create_line(last_x, last_y, event.x, event.y, fill="black", width=2)
