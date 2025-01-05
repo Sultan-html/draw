@@ -9,7 +9,7 @@ def draw(event):
     global last_x, last_y
     canvas.create_line(last_x, last_y, event.x, event.y, fill="black", width=2)
     last_x, last_y = event.x, event.y
-
+#функция для удаление того что нарисовал
 def clear_canvas():
     canvas.delete("all")
 
